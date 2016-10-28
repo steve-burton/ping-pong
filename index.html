@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Ping-Pong</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Ping-Pong</h1>
+    <div class="row">
+      <div class="col-md-4">
+        <h2>Rules:</h2>
+        <ol>
+          <li>Numbers divisible by 3 become "ping"</li>
+          <li>Numbers divisible by 5 become "pong"</li>
+          <li>Numbers divisible by 3 become "ping"</li>
+        </ol>
+      </div>
+      <div class="col-md-8">
+        <form id="inputBox">
+          <div class="form-group">
+              <label for="enteredNumber">Please enter a number:</label>
+              <input id="numberInput" class="form-control" type="text">
+          </div>
+          <button type="submit" form="inputBox" class="btn" id="convertButton">Convert</button>
+        </form>
+        <div id="convertResult">
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
