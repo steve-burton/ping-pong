@@ -23,11 +23,3 @@ $("#inputBox").submit(function(event){
     $("#numeralResult").text(result);
   });
 });
-
-// This should clear the input form:
-if (!countTo || !countBy || countTo <= 0 || countBy === 0 || countTo === NaN || countBy === NaN ) {
-
-      alert("Please enter a valid number");
-      $("form").removeClass(form-control);
-      $("form").addClass(form-control);
-		}

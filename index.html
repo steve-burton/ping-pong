@@ -19,18 +19,22 @@
         <ol>
           <li>Numbers divisible by 3 become "ping"</li>
           <li>Numbers divisible by 5 become "pong"</li>
-          <li>Numbers divisible by 3 become "ping"</li>
+          <li>Numbers divisible by 15 become "ping-pong"</li>
         </ol>
       </div>
       <div class="col-md-8">
+        <h2>Let's play ping-pong!</h2>
         <form id="inputBox">
           <div class="form-group">
-              <label for="enteredNumber">Please enter a number:</label>
+              <label for="enteredNumber">Please enter a number between 1 and 100 here:</label>
               <input id="numberInput" class="form-control" type="text">
           </div>
           <button type="submit" form="inputBox" class="btn" id="convertButton">Convert</button>
         </form>
-        <div id="convertResult">
+        <div>
+          <ul id="convertResult">
+
+          </ul>
         </div>
       </div>
     </div>

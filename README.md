@@ -7,14 +7,37 @@
 ## Description
 _These are the steps we'll take to write our code:_
 
-* _XXXXX_
-* _XXXXX_
-* _XXXXX_
-* _XXXXX_
-* _XXXXX_
-* _XXXXX_
-* _XXXXX_
-* _Print message for invalid inputs_
+_It can count to the number provided_
+
+* _Example input: 4_
+* _Example output [1, 2, 3, 4]_
+
+_It can return ping for numbers divisible by 3_
+
+* _Example input: 3_
+* _Example output [ping]_
+
+_It can return pong for numbers divisible by 5_
+
+* _Example input: 5_
+* _Example output [pong]_
+
+_It can return ping-pong for numbers divisible by 15_
+
+* _Example input: 15_
+* _Example output [ping-pong]_
+
+_It can count to the number provided_
+
+* _Example input: 5_
+* _Example output [1, 2, 3, 4, 5]_
+
+_It can print message for invalid inputs_
+
+* _Example input: Hello_
+* _Example output [Please enter a number between 1 and 100]_
+
+_When a user submits a number it will clear the form so they can submit another number_
 
 ## Setup/Installation Requirements
 
@@ -26,7 +49,8 @@ _Most invalid inputs are accounted for. Let me know if you find more!_
 
 ## Support and contact details
 
-_YOu can contact me at stevevburton@gmail.com_
+[Click here](http://steve-burton.github.io/ping-pong/) to view my track suggester on GitHub Pages.
+Or you can contact me [here](mailto:stevevburton@gmail.com) by email.
 
 ## Technologies Used
 
