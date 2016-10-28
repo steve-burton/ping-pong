@@ -9,7 +9,7 @@ var userNumber = number;
 		} else if(number % 5 === 0){
 			return("pong");
 		} else {
-			return number;
+			return (number);
 		}
   }
 };
