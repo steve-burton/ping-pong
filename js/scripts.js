@@ -1,26 +1,24 @@
 
+// var digits = function(number) {
+//   var number = number.split("");
+// };
 var pingPong = function(number) {
-var userNumber = number;
-  for(var index=1; index<=userNumber; index +=1) {
-    var output = "";
+  //var number = parseInt(splitNumber)
+  for(var index=1; index<=number.length; index +=1) {
     if(number % 15 === 0){
-      return("ping-pong");
+      return ("ping-pong");
 		} else if(number % 3 === 0){
 			return("ping");
 		} else if(number % 5 === 0){
 			return("pong");
 		} else {
-			return (number);
+      numberString = number.toString(" ");
+      digits = numberString.split(",");
+      return digits;
 		}
   }
 };
 
-// function pingPong(userNumber) {
-//   var number = userNumber;
-// 	for(var number=1; number<=100; number++){
-// 			return(number);
-// 		}
-// 	}
 
 
 
@@ -28,7 +26,7 @@ var userNumber = number;
 $(document).ready(function() {
   $("form#inputBox").submit(function(event){
       event.preventDefault();
-      var userNumber = parseInt($("input#numberInput").val());
+      var userNumber = $("input#numberInput").val();
       var result = pingPong(userNumber);
       $("#convertResult").text(result);
     });
