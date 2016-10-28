@@ -10,7 +10,7 @@ _These are the steps we'll take to write our code:_
 _It can count to the number provided_
 
 * _Example input: 4_
-* _Example output [1, 2, 3, 4]_
+* _Example output [4]_
 
 _It can return ping for numbers divisible by 3_
 
@@ -29,8 +29,8 @@ _It can return ping-pong for numbers divisible by 15_
 
 _It can count to the number provided_
 
-* _Example input: 5_
-* _Example output [1, 2, 3, 4, 5]_
+* _Example input: 4_
+* _Example output [1, 2, 3, 4]_
 
 _It can print message for invalid inputs_
 
