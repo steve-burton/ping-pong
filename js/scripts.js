@@ -2,6 +2,7 @@
 var pingPong = function(number) {
 var userNumber = number;
   for(var index=1; index<=userNumber; index +=1) {
+    var output = "";
     if(number % 15 === 0){
       return("ping-pong");
 		} else if(number % 3 === 0){
