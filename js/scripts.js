@@ -36,7 +36,8 @@ $(document).ready(function() {
       var userNumber = parseInt($("input#numberInput").val());
       var result = inputCheck(userNumber);
       $("#convertResult").text(result);
-      $("input#numberInput").removeClass(form-control);
-      $("input#numberInput").addClass(form-control);
+      $("input#numberInput").empty();
+      // $("input#numberInput").removeClass(form-control);
+      // $("input#numberInput").addClass(form-control);
     });
   });
