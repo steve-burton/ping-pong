@@ -1,0 +1,55 @@
+div {
+  margin-top: 15px;
+}
+
+.header {
+  background-color: green;
+}
+
+#left-column {
+  background-color: green;
+  padding-top: 20px;
+  padding-right: 10px;
+  color: white;
+  letter-spacing: 0.08em;
+  height: 650px;
+  margin-left: 80px
+}
+
+#right-column {
+  background-color: green;
+  margin-left: 15px;
+  margin-right: 20px;
+  padding-top: 20px;
+  padding-right: 40px;
+  height: 650px;
+}
+
+h2 {
+  letter-spacing: 0.03em;
+}
+
+#right-column h2 {
+  color: white;
+}
+
+label {
+  color: lightgray;
+  letter-spacing: 0.04em;
+  font-weight: normal;
+}
+
+h1 {
+  text-align: center;
+  font-size: 6em;
+  font-weight: 300;
+}
+
+ol {
+  font-size: 1em;
+}
+
+#convertResult {
+  color: white;
+  letter-spacing: 0.03em;
+}

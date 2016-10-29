@@ -1,6 +1,6 @@
-# _Ping-Pong Converter_
+# Ping-Pong Converter
 
-#### _This application will take a user-entered number and count up to that number. It will replace numbers divisible by 3 with "ping," numbers divisible by 5 with "pong," and numbers divisible by 15 with "ping-pong."_
+#### This application will take a user-entered number and count up to that number. It will replace numbers divisible by 3 with "ping," numbers divisible by 5 with "pong," and numbers divisible by 15 with "ping-pong."
 
 #### By **Steve Burton**
 

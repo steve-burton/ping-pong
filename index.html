@@ -1,44 +1,44 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
-    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
-    <script src="js/jquery-3.1.1.js"></script>
-    <script src="js/scripts.js"></script>
-    <title>Ping-Pong</title>
-</head>
-
-<body>
-  <div class="container">
-    <h1>Ping-Pong</h1>
-    <div class="row">
-      <div class="col-sm-5">
-        <h2>Rules:</h2>
-        <ol>
-          <li>Numbers divisible by 3 become "ping"</li>
-          <li>Numbers divisible by 5 become "pong"</li>
-          <li>Numbers divisible by 15 become "ping-pong"</li>
-        </ol>
+  <head>
+      <meta charset="utf-8">
+      <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+      <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+      <script src="js/jquery-3.1.1.js"></script>
+      <script src="js/scripts.js"></script>
+      <title>Ping-Pong</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="header">
+        <h1>Ping-Pong</h1>
       </div>
-      <div class="col-sm-7">
-        <h2>Let's play ping-pong!</h2>
-        <form id="inputBox">
-          <div class="form-group">
-              <label for="enteredNumber">Please enter a number between 1 and 100 here:</label>
-              <input id="numberInput" class="form-control" type="text">
-          </div>
-          <button type="submit" form="inputBox" class="btn" id="convertButton">Convert</button>
-        </form>
-        <div class="result">
-          <p id="convertResult"></p>
+      <div class="row">
+
+        <div class="col-sm-5" id="left-column">
+          <h2>Rules:</h2>
+          <ol>
+            <li>Numbers divisible by 3 become "ping"</li>
+            <li>Numbers divisible by 5 become "pong"</li>
+            <li>Numbers divisible by 15 become "ping-pong"</li>
+          </ol>
         </div>
+
+        <div class="col-sm-5" id="right-column">
+          <h2>Let's play ping-pong!</h2>
+          <form id="inputBox">
+            <div class="form-group">
+                <label for="enteredNumber">Please enter a number between 1 and 100 here:</label>
+                <input id="numberInput" class="form-control" type="text">
+            </div>
+            <button type="submit" form="inputBox" class="btn" id="convertButton">Ping-pong!</button>
+          </form>
+          <div class="result">
+            <p id="convertResult"></p>
+          </div>
+        </div>
+
       </div>
     </div>
-
-  </div>
-
-</body>
-
+  </body>
 </html>
