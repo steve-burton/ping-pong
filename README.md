@@ -49,7 +49,7 @@ Most invalid inputs are accounted for. Let me know if you find more!
 
 ## Support and contact details
 
-[Click here](http://steve-burton.github.io/ping-pong/) to view my track suggester on GitHub Pages.
+[Click here](http://steve-burton.github.io/ping-pong/) to view my Ping-pong web app on GitHub Pages.
 Or you can contact me [here](mailto:stevevburton@gmail.com) by email.
 
 ## Technologies Used
