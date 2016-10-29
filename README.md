@@ -41,7 +41,7 @@ When a user submits a number it will clear the form so they can submit another n
 
 ## Setup/Installation Requirements
 
-* Run in your browser!
+Run in your browser!
 
 ## Known Bugs
 

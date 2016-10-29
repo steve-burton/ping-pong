@@ -33,13 +33,12 @@ var pingPong = function(number) {
 $(document).ready(function() {
   $("form#inputBox").submit(function(event){
       event.preventDefault();
-
       var userNumber = parseInt($("input#numberInput").val());
       var result = inputCheck(userNumber);
       $("#convertResult").text(result);
       document.getElementById("inputBox").reset();
-      document.getElementsByClassName("result p").reset();
-      // $("div.result").removeClass(convertResult p);
-      // $("div.result").addClass(convertResult p);
+      //document.getElementsById("div convertResult").reset();
+      $("div").removeClass(result);
+      $("div").addClass(result);
     });
   });
