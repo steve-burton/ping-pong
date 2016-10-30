@@ -13,19 +13,19 @@ var inputCheck = function(input) {
   return output;
 };
 
-var digit = [];
+var digits = [];
 var pingPong = function(number) {
   for(var index = 1; index <= number; index +=1) {
      if (index % 15 === 0) {
-		   digit.push(" ping-pong");
+		   digits.push(" ping-pong");
 		 } else if (index % 5 === 0) {
-			 digit.push(" pong");
+			 digits.push(" pong");
 		 } else if (index % 3 === 0) {
-       digit.push(" ping");
+       digits.push(" ping");
 		 } else {
-       digit.push(" " + index);
+       digits.push(" " + index);
 		}
-  } return digit;
+  } return digits;
 };
 
 
@@ -37,7 +37,7 @@ $(document).ready(function() {
       var result = inputCheck(userNumber);
       $("#convertResult").text(result);
       document.getElementById("inputBox").reset();
-      //document.getElementsById("div convertResult").reset();
+      document.getElementById("convertResult").reset();
       $("div").removeClass(result);
       $("div").addClass(result);
     });
