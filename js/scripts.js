@@ -1,6 +1,6 @@
 //### Business logic ###//
 
-// Check for valid input and ouput message for invalid, else run converterLoop.
+// Check for valid input and ouput message for invalid, else run pingPong Loop.
 var inputCheck = function(input) {
   var output = "";
   if (!parseInt(input) || input.length > 100) {
@@ -13,8 +13,9 @@ var inputCheck = function(input) {
   return output;
 };
 
-var digits = [];
+// For loop runs user input and branching to determine output.
 var pingPong = function(number) {
+  var digits = [];
   for(var index = 1; index <= number; index +=1) {
      if (index % 15 === 0) {
 		   digits.push(" ping-pong");
@@ -36,9 +37,7 @@ $(document).ready(function() {
       var userNumber = parseInt($("input#numberInput").val());
       var result = inputCheck(userNumber);
       $("#convertResult").text(result);
-      document.getElementById("inputBox").reset();
-      document.getElementById("convertResult").reset();
-      $("div").removeClass(result);
-      $("div").addClass(result);
+      document.getElementById("inputBox").reset("");
+      document.getElementById("convertResult").reset("");
     });
   });
